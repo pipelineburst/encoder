@@ -1,0 +1,84 @@
+/* ----------------- */
+/*      Reset        */
+/* ----------------- */
+
+/* Box sizing */
+* {
+    box-sizing: border-box;
+}
+    
+/* Reset margins */
+    
+body,
+h1,
+p
+{
+    margin: 0;
+}
+    
+h1,
+p {
+    font-weight: 400;
+}
+/* ----------------- */
+/*      Styling      */
+/* ----------------- */
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    padding: 3rem;
+    background: rgb(2,0,36);
+    background: linear-gradient(175deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+    font-family: 'Fredoka', sans-serif;
+    font-size: 1.5rem;
+}
+h1 {
+    font-family: 'Faster One', cursive;
+    font-size: 6rem;
+    color: white;
+    margin-bottom: 3rem;
+    text-align: center;
+    padding-left: 0.5rem;
+}
+.container {
+    display: flex;
+    gap: 5rem;
+}
+section label {
+    color: white;
+}
+section input {
+    width: 100%; 
+    display: block;
+    height: 5rem;
+    margin: 2rem 0 2rem 0;
+    border: none;
+    border-radius: 12px;
+    box-shadow: 4px 4px 8px black;
+    padding-inline: 1.5rem;
+}
+button {
+    font-size: 1.5rem;
+    padding: 1.2rem;
+    border-radius: 18px;
+    border: none;
+}
+.white-btn {
+    color: rgba(9,9,121,1);
+    box-shadow: 4px 4px 8px rgba(9,9,121,1);
+}
+.blue-btn {
+    background-color: rgba(9,9,121,1);
+    color: white;
+    box-shadow: 4px 4px 8px rgba(2,0,36,1);
+    margin-right: 2rem;
+}
+.output {
+    min-height: 5rem;
+     margin: 2rem 0 2rem 0;
+            color: white;
+}
+    
+   
